@@ -1,0 +1,18 @@
+{
+    "data":
+    {"currentProject":"This one",
+    "totalProjects":[
+        {
+            "title":"Portfolio website",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "github":"placeholder.com",
+            "thumbnail":"i.imgur.com/HuvjKVW.jpeg"
+        },
+        {
+            "title":"Website Backend",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "github":"placeholder.com",
+            "thumbnail":"i.imgur.com/HuvjKVW.jpeg"
+        }
+    ]}
+}
