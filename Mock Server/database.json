@@ -3,16 +3,16 @@
     {"currentProject":"This one",
     "totalProjects":[
         {
-            "title":"Portfolio website",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-            "github":"placeholder.com",
-            "thumbnail":"i.imgur.com/HuvjKVW.jpeg"
+            "title":"Portfolio",
+            "description":"Second portfolio, now with better logic and type checking, much better than their sad older sibling ",
+            "github":"https://github.com/CHenrique97/portfolioV2",
+            "thumbnail":"https://i.imgur.com/Z22Z6dP.png"
         },
         {
             "title":"Website Backend",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
             "github":"placeholder.com",
-            "thumbnail":"i.imgur.com/HuvjKVW.jpeg"
+            "thumbnail":"https://i.imgur.com/HuvjKVW.jpeg"
         }
     ]}
 }

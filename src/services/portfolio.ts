@@ -1,5 +1,5 @@
 import http from "../axios/http-commons";
-import { DataPortfolio } from "../interface/Idata";
+import  DataPortfolio from "../interface/Idata";
 
 class DataPortfolioService{
     getAll(){
