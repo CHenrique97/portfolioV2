@@ -1,4 +1,4 @@
-import React,{FC, useState} from "react";
+import React,{FC, useEffect, useState} from "react";
 import DataPortfolio from "../interface/Idata";
 import github from "../assets/GitHub.png";
 import "./Display.css";
@@ -7,15 +7,18 @@ const Display:FC<DataPortfolio> = (props) =>{
 
     let [displayProject,setProject]=useState(props.totalProjects[0]);
 
+    useEffect(()=>{
+        console.log('Things changed')
+        setProject(props.totalProjects[0]);
+    },[props.totalProjects])
     
     let selectProject = (project:any ) =>{
-        console.log(project);
         setProject(project);
     }
 
     
     return(
-   
+        
     <div className="Display">      
     <div className="List">
     {props.totalProjects.map((project)=>

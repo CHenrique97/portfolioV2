@@ -15,6 +15,7 @@ function App() {
     "github":"placeholder.com",
     "thumbnail":placeholder
 }]);
+
   let portfolio:DataPortfolio; 
 
   useEffect(() => {
@@ -34,9 +35,10 @@ function App() {
   return (
     <div className="main">
    <HeaderData currentProject={currentProject} totalProjects={totalProjects} ></HeaderData>
-   <Display totalProjects={projectList} currentProject={''}> </Display>
-   </div>
+   <Display totalProjects={projectList} currentProject={''} > </Display>
 
+   </div>
+    
 
   )
 }
